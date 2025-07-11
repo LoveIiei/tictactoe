@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tictactoe"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="TicTacToe" Height="450" Width="800">
     <Grid x:Name="GameGrid">
         <Grid.RowDefinitions>
             <RowDefinition />
@@ -47,4 +47,4 @@
             <Button x:Name="_22" Content="" Click="Move_Click"/>
         </Border>
     </Grid>
-</Window>
+</Window>
